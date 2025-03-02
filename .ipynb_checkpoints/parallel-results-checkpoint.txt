@@ -1,0 +1,64 @@
+Deleted: /Users/reva/Documents/geek_projects/dungbeetle/dungbeetle.sumy
+Deleted: /Users/reva/Documents/geek_projects/dungbeetle/cmd/cmd.sumy
+Deleted: /Users/reva/Documents/geek_projects/dungbeetle/internal/internal.sumy
+Deleted: /Users/reva/Documents/geek_projects/dungbeetle/internal/dbpool/dbpool.sumy
+Deleted: /Users/reva/Documents/geek_projects/dungbeetle/internal/core/core.sumy
+Deleted: /Users/reva/Documents/geek_projects/dungbeetle/internal/resultbackends/resultbackends.sumy
+Deleted: /Users/reva/Documents/geek_projects/dungbeetle/internal/resultbackends/sqldb/sqldb.sumy
+Deleted: /Users/reva/Documents/geek_projects/dungbeetle/models/models.sumy
+Deleted: /Users/reva/Documents/geek_projects/dungbeetle/client/client.sumy
+Deleted: /Users/reva/Documents/geek_projects/dungbeetle/sql/sql.sumy
+Deleted: /Users/reva/Documents/geek_projects/dungbeetle/sql/pg/pg.sumy
+Deleted: /Users/reva/Documents/geek_projects/dungbeetle/sql/mysql/mysql.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/internal/resultbackends/sqldb to /Users/reva/Documents/geek_projects/dungbeetle/internal/resultbackends/sqldb/sqldb.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/models to /Users/reva/Documents/geek_projects/dungbeetle/models/models.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/sql/mysql to /Users/reva/Documents/geek_projects/dungbeetle/sql/mysql/mysql.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/internal/resultbackends to /Users/reva/Documents/geek_projects/dungbeetle/internal/resultbackends/resultbackends.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/sql/pg to /Users/reva/Documents/geek_projects/dungbeetle/sql/pg/pg.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/client to /Users/reva/Documents/geek_projects/dungbeetle/client/client.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/internal/core to /Users/reva/Documents/geek_projects/dungbeetle/internal/core/core.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/cmd to /Users/reva/Documents/geek_projects/dungbeetle/cmd/cmd.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/internal/dbpool to /Users/reva/Documents/geek_projects/dungbeetle/internal/dbpool/dbpool.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/sql to /Users/reva/Documents/geek_projects/dungbeetle/sql/sql.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/internal to /Users/reva/Documents/geek_projects/dungbeetle/internal/internal.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle to /Users/reva/Documents/geek_projects/dungbeetle/dungbeetle.sumy
+Time taken to execute the summary calculation in parallel : 336.156459 seconds
+
+--- Root Project Summary ---
+
+Here is a summary of the project:
+
+**Overview**
+
+The project appears to be a concurrent job execution system that manages user profits. It includes multiple components, such as a client interface, business logic modules, and database-related code.
+
+**Components**
+
+1. **Client**: The Client package provides a simple interface to interact with an SQL Jobber API. It allows users to post new jobs, delete existing jobs and groups, fetch job and group statuses, and retrieve pending jobs.
+2. **Business Logic**: Business logic modules manage queues and concurrency parameters, including retrieving profit summaries and specific entry data from the database.
+3. **Database**: The project uses a database (either MySQL or PostgreSQL) to store user profits and related data. Database-related code includes stored procedures for retrieving profit data.
+4. **Storage**: Storage components handle queue data and job execution.
+
+**Functionality**
+
+The system provides the following functionality:
+
+* Posting new jobs
+* Deleting existing jobs and groups
+* Fetching job and group statuses
+* Retrieving pending jobs
+* Retrieving profit summaries and specific entry data from the database
+
+**Workflow**
+
+The workflow involves the client interacting with the business logic modules, which then interact with the database to retrieve or update data. The system uses concurrency management to optimize performance.
+
+**Dependencies**
+
+The project depends on various components, including:
+
+* Database (MySQL or PostgreSQL)
+* Storage components
+* Major software components (authentication mechanisms)
+
+Overall, the project appears to be a complex concurrent job execution system that manages user profits and provides an interface for users to interact with the system.
