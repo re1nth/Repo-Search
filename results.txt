@@ -1,0 +1,5 @@
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/cmd to /Users/reva/Documents/geek_projects/dungbeetle/cmd/cmd.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/internal/dbpool to /Users/reva/Documents/geek_projects/dungbeetle/internal/dbpool/dbpool.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/internal/core to /Users/reva/Documents/geek_projects/dungbeetle/internal/core/core.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/internal/resultbackends/sqldb to /Users/reva/Documents/geek_projects/dungbeetle/internal/resultbackends/sqldb/sqldb.sumy
+Summary written for /Users/reva/Documents/geek_projects/dungbeetle/internal/resultbackends to /Users/reva/Documents/geek_projects/dungbeetle/internal/resultbackends/resultbackends.sumy
